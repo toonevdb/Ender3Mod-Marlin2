@@ -104,9 +104,9 @@
   #ifndef Z_MIN_PIN
     #define Z_MIN_PIN      18
   #endif
-  #ifndef Z_MAX_PIN
+  /*#ifndef Z_MAX_PIN
     #define Z_MAX_PIN      19
-  #endif
+  #endif*/
 #endif
 
 //
@@ -251,7 +251,7 @@
 
 // RAMPS 1.4 DIO 4 on the servos connector
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN    4
+  #define FIL_RUNOUT_PIN    19
 #endif
 
 #ifndef PS_ON_PIN
